@@ -1,8 +1,16 @@
 # ethereum-cli
-
-
 Run:
 go run ethereum_cli.go
+ 
+Build:
+go build
+./ethereum-cli --help
+Usage of ./ethereum-cli:
+  -eht string
+         (default "https://cloudflare-eth.com/")
+  -port int
+         (default 8080)
+
 
 Use:
 open url: http://localhost:8080/api/eth/{cmd}
